@@ -1,81 +1,250 @@
 /* Font style */
+.fira-sans-normal {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
 
+/* Nav style */
+.nav {
+    display: flex;
+    max-width: 1280px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
 
-.fira-sans-normal{
-    font-family: "Fira Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>; 
-    font-style: normal; 
-    font-variation-settings:
-      "wdth" 100; 
-  }
-  
- 
-  
-
-
-  /* Nav style... */
-
- .nav{
-
-       display: flex;
-       align-items: center;
-       margin: 0px 160px;
-       padding: 0px 0px;
-       justify-content: space-between;
-      
-
- }
- .nav-title{
-    font-style: #0E0E0E;
-    font-weight: bold;
+.nav-title {
     font-size: 32px;
- }
- .nav-button{
+    font-weight: 700;
+    color: #0E0E0E;
+}
 
-    padding: 10px 10px;
+.nav-button {
+    padding: 10px 20px;
     border-radius: 8px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #006A50;
+    border: 1px solid #006A50;
     background-color: white;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 18px;
     color: #006A50;
-    
+    cursor: pointer;
+}
 
- }
+.nav-button:hover {
+    background-color: #006A50;
+    color: white;
+}
+
+/* Main style */
+.main-style {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+
+}
+
+.banner-content {
+    max-width: 50%;
+
+    margin: 61px 64px 117px 59.99px;
 
 
 
- /* Banner style..... */
+}
 
- .banner{
-    
+.banner-font1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px; 
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-font2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color:rgba(14, 14, 14, 1);
+}
+
+
+.explore-button {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background-color: #004D38;
+}
+
+/* Image style */
+.image-style {
+    max-width: 474.03px;
+    max-height: 400px;
+    margin-left: 64px;
+    margin-right: 59.99px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ 
+}
+
+
+/* The vision section styles */
+
+.primary-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.primary-descp{
+
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top: 0px;
+    margin-bottom: 32px;
+
+
+}
+
+.Vision{
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    margin: 51px 160px;
-   
-    background-color: #C6E4D6;
-    
- }
+    margin-top: 32px;
+    margin-right: 24px;
+    margin-bottom: 80px;
+}
 
- .banner-content{
-    margin: 117px 64px 117px 59.99px;
- }
- .banner-font2{
-    font-size: 56px;
+.card-1{
+
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    margin-right: 24px;
+    border-radius: 16px;
+ 
+}
+
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
     font-weight: bold;
- }
- .banner-font1{
 
-    font-size: 24px;
-    font-weight: 500px;
+}
 
- }
- .image-style{
-     width: 474.03px;
-     height: 400px;
-     margin: 80px 59.99px 80px 0px;
- }
+.card-descp{
+
+
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+
+
+}
+.btn-1{
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(84, 144, 245, 1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.card-2{
+
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+    margin-right: 24px;
+    border-radius: 16px;
+ 
+}
+
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.card-descp{
+
+
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+
+
+}
+.btn-2{
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(9, 161, 92, 1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.card-3{
+
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px;
+    margin-right: 24px;
+    border-radius: 16px;
+ 
+}
+
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.card-descp{
+
+
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+
+
+}
+.btn-3{
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 194, 57, 1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.btn-1:hover {
+    background-color: #004D38;
+}
+
+.btn-2:hover {
+    background-color: #004D38;
+}
+.btn-3:hover {
+    background-color: #004D38;
+}
