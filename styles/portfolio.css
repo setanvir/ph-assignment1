@@ -260,7 +260,38 @@
 }
 
 
+.quote-style{
 
+    background-color: white;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    
+    background-position: top left;
+    background-position: 26px 26px;
+    padding: 48px 24px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.primary-titlequote{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 4px;
+    
+}
+.primary-descpquote{
+
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 24px;
+
+
+}
 
 
 
@@ -505,7 +536,7 @@
 .formtype{
 
    justify-items: center;
- 
+
    margin: 32px 124px 32px 124px;
    background-color: white;
 }
